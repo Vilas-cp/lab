@@ -1,5 +1,5 @@
 mongosh
-use student
+use studentDB
 db.students.insertMany([
   { name: "Amit", age: 21, department: "CSE", city: "Bengaluru" },
   { name: "Priya", age: 22, department: "ECE",  city: "Mysuru" },
